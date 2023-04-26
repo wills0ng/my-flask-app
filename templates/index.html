@@ -1,6 +1,28 @@
 {% extends 'base.html' %}
 {% block content %}
+<div class="card text-center">
+  <div class="card-header">
+    Featured Article
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Falling in love with a Classic</h5>
+    <p class="card-text">This is a review of my first M body film camera.</p>
+    <div class="featured-image">
+      <div class="text-center"><img class="img-thumbnail"
+        src="https://www.35mmc.com/wp-content/uploads/2019/03/40415148783_2537b92a20_h.jpg"
+        width="500em" class="rounded-circle img-thumbnail" style="border: 0px solid #000000">
+      </div>
+    </div>
+  </br>
+    <a href="{{ url_for('blogpost')}}"" class="btn btn-primary">Go to review</a>
+  </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+<link rel="stylesheet" type="text/css" href="style.cs">
+<!-- </div>
       <div class="container">
     <h1>Hello, world!</h1>
-</div>
+    <p>Hello everyone, I am creating this page to test out web development in flask.</p>
+</div> -->
 {% endblock %}
