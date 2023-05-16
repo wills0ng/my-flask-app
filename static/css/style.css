@@ -1,3 +1,7 @@
+:root {
+    --bs-body-font-family: 'Roboto', sans-serif;
+}
+
 h1 {
     color:black;
     font-size: 46px;
@@ -7,13 +11,21 @@ body{
     background: white;
 }
 
-.featured-image {
+.fst-italic {
+    font-style: italic!important;
+}
+
+/* .featured-image {
     background-image:url("https://www.35mmc.com/wp-content/uploads/2019/03/40415148783_2537b92a20_h.jpg");
     background-size:cover;
     background-attachment:fixed;
     min-height:150px;
-}
+} */
 
 .blog-post-meta {
  color: #727272
+}
+
+.blockquote {
+    font-style: italic!important;
 }
