@@ -1,6 +1,20 @@
 {% extends 'base.html' %}
 {% block content %}
-      <div class="container">
-    <h1>Hello, world!</h1>
+<div class="card text-center">
+  <div class="card-header">
+    Featured Article
+  </div>
+  <div class="card-body">
+    <h3 class="card-title">Falling in love with a Classic</h3>
+    <h5 class="card-text">This is a review of my first M body film camera.</h5>
+    <div class="featured-image">
+      <div class="text-center"><img class="img-thumbnail"
+        src="static/img/R0000228.JPG"
+        width="500em" class="rounded-circle img-thumbnail" style="border: 0px solid #000000">
+      </div>
+    </div>
+  </br>
+    <a href="{{ url_for('blogpost')}}"" class="btn btn-primary">Go to review</a>
+  </div>
 </div>
 {% endblock %}
